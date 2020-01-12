@@ -53,14 +53,14 @@ public class Main {
     }
 
     public static void third(){
-        float w = 20;
-        float x = -3;
-        float y = 5;
-        float z = 8;
+        float w = 20f;
+        float x = -3f;
+        float y = 5f;
+        float z = 8f;
         float result = w + x * y / z;
         System.out.println(result);
     }
-    
+
     public static void fourth(){
         int v = 5;
         int w = 15;
