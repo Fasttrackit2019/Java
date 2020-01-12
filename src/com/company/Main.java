@@ -1,4 +1,5 @@
-package  com.company;
+package com.company;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,21 +24,21 @@ public class Main {
         System.out.println("Hello\nVlad");
     }
 
-    public static void sum(){
+    public static void sum() {
         int x = 2;
         int y = 5;
         int sum = x + y;
         System.out.println(sum);
     }
 
-    public static void div(){
+    public static void div() {
         float a = 100.5f;
         float b = 17.5f;
-        float div = a/b;
+        float div = a / b;
         System.out.println(div);
     }
 
-    public static void first(){
+    public static void first() {
         int x = -5;
         int y = 8;
         int z = 6;
@@ -45,14 +46,14 @@ public class Main {
         System.out.println(result);
     }
 
-    public static void second(){
+    public static void second() {
         int x = 55;
         int y = 9;
         int result = (x + y) % y;
         System.out.println(result);
     }
 
-    public static void third(){
+    public static void third() {
         float w = 20f;
         float x = -3f;
         float y = 5f;
@@ -61,7 +62,7 @@ public class Main {
         System.out.println(result);
     }
 
-    public static void fourth(){
+    public static void fourth() {
         int v = 5;
         int w = 15;
         int x = 3;
