@@ -1,8 +1,5 @@
 package lab3.calculator;
 
-import lab3.calculator.LogicalOp;
-import org.w3c.dom.ls.LSOutput;
-
 public class Main {
 //given the numbers see which one is the greatest an print it
 
