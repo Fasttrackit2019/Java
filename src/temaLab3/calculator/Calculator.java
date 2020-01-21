@@ -42,17 +42,17 @@ public class Calculator {
         return result;
     }
 
-    public float speed1(float meters, float hours, float minutes, float seconds) {
+    public float speedMetersPerSecond(float meters, float hours, float minutes, float seconds) {
         float speed1 = meters / (seconds + minutes * 60 + hours * 3600);
         return speed1;
     }
 
-    public float speed2(float meters, float hours, float minutes, float seconds) {
+    public float speedKilometersPerHour(float meters, float hours, float minutes, float seconds) {
         float speed2 = (meters / 1000) / (hours + minutes / 60 + seconds / 3600);
         return speed2;
     }
 
-    public float speed3(float meters, float hours, float minutes, float seconds) {
+    public float speedMilesPerHour(float meters, float hours, float minutes, float seconds) {
         float speed3 = (meters / 1609) / (hours + minutes / 60 + seconds / 3600);
         return speed3;
     }

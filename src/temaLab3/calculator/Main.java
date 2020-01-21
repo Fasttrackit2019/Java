@@ -20,9 +20,9 @@ public class Main {
 
         System.out.println(op.inch(50));
 
-        System.out.println(op.speed1(100, 5, 20, 15));
-        System.out.println(op.speed2(100, 5, 20, 15));
-        System.out.println(op.speed3(100, 5, 20, 15));
+        System.out.println(op.speedMetersPerSecond(100, 5, 20, 15));
+        System.out.println(op.speedKilometersPerHour(100, 5, 20, 15));
+        System.out.println(op.speedMilesPerHour(100, 5, 20, 15));
 
         LogicalOp op1 = new LogicalOp();
 
