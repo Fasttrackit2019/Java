@@ -1,4 +1,4 @@
-package Lab2.animalRescue;
+package lab2.animalRescue;
 
 public class Dog {
 

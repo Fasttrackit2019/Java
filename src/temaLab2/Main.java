@@ -1,4 +1,4 @@
-package TemaLab2;
+package temaLab2;
 
 public class Main {
 

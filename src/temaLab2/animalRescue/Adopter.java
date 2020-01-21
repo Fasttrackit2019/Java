@@ -1,4 +1,4 @@
-package TemaLab2.animalRescue;
+package temaLab2.animalRescue;
 
 public class Adopter {
 
