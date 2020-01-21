@@ -5,19 +5,24 @@ public class AppMain {
     public static void main(String[] args) {
 
         Dog rex = new Dog();
-        rex.name = "Rex";
-        rex.age = 5;
-        rex.race = "pug";
-        System.out.println(rex.age);
-        System.out.println(rex.name);
+        rex.setName("Rex");
+        System.out.println(rex.getName());
 
-        Dog brunno = new Dog();
-        brunno.name = "Brunno";
-        System.out.println(brunno.name);
+        rex.setRace("pug");
+        System.out.println(rex.getRace());
 
-        Dog ion = new Dog();
-        ion.sleep();
-//nu se pune system out pt ca sleep este o metoda void si nu returneaza nimic
+        rex.setAge(1.2f);
+        System.out.println(rex.getAge());
+
+        rex.setColor("brown");
+        System.out.println(rex.getColor());
+
+        rex.setSize(30);
+        System.out.println(rex.getSize());
+
+        rex.setIsFriendly(true);
+        System.out.println(rex.getIsFriendly());
+
 
     }
 
