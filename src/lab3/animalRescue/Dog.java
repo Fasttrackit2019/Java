@@ -53,8 +53,8 @@ public class Dog {
         isFriendly = true;
     }
 
-    public void setIsFriendly(boolean isFriendly) {
-        this.isFriendly = true;
+    public void setIsFriendly(boolean value) {
+        isFriendly = value;
     }
 
     public boolean getIsFriendly() {
