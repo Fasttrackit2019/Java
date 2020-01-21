@@ -66,33 +66,8 @@ public class AppMain {
 
         staff.setSpecialisation("doctor");
         System.out.println(staff.getSpecialisation());
-
-
-
-
-
-
-        Veterinarian staff = new Veterinarian();
-
-        staff.setName("Jones");
-        System.out.println(staff.getName());
-
-        staff.setSpecialisation("doctor");
-        System.out.println(staff.getSpecialisation());
-
-
-
-
-
-
-
-
-
+        
     }
-
-
-
-
 
 
 }
