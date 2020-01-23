@@ -44,10 +44,10 @@ public class Main {
         System.out.println(op1.snowLevel(6));
 
         //      Q7 Assignment
-        System.out.println(op1.verifyNumber(6));
+        System.out.println(op1.verifyNumber(2));
 
         //      Q8 Assignment
-        System.out.println(op1.switchNumber(2));
+        op1.printNmber(1);
 
         //      Q9 Assignment
         System.out.println(op1.isNumberEven(10));

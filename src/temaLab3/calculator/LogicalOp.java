@@ -46,22 +46,24 @@ public class LogicalOp {
             return "The number is greater than 3 and not equal to 4";
         } else if (number == 4) {
             return "The number is equal to 4";
-        } else {
+        } else if ((number < 3)) {
             return "The number is lower than 3";
+        } else {
+            return "0";
         }
     }
 
     //      Q8 Assignment
-    public String switchNumber(int value) {
-        switch (value) {
+    public void printNmber(int number) {
+        switch (number) {
             case 1:
-                return "The number is 1!";
+                System.out.println("The number is 1!");
             case 2:
-                return "The number is 2!";
+                System.out.println("The number is 2!");
             case 3:
-                return "The number is 3!";
-            default:
-                return "Default!";
+                System.out.println("The number is 3!");
+            case 500:
+                System.out.println("The number is 0");
         }
     }
 
