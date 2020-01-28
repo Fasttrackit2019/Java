@@ -51,6 +51,16 @@ public class LogicalOp {
         }
     }
 
-
+    //    Sa se afiseze doar numerele impare crescator
+    public void unevenNumber(int first, int second) {
+        for (int i = first; i <= second; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
+        }
+    }
 }
+
+
+
 
