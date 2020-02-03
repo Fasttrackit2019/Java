@@ -10,8 +10,10 @@ public class LogicalOp {
         return array;
     }
 
-    public void printArray(String[] array) {
-        for (int i = 0; i < array.length; i++) ;
+    public void printArray(int array[]) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 
     public float getAverage(int[] array) {

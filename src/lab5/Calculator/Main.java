@@ -12,7 +12,7 @@ public class Main {
         LogicalOp op = new LogicalOp();
         int[] newArray = op.arrayToHundred();
         String[] x = {"Hello", "Friend"};
-        op.printArray(x);
+
 
         int[] arrayHundred = op.arrayToHundred();
         float y = op.getAverage(arrayHundred);
