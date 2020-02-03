@@ -81,7 +81,7 @@ public class AppMain {
 
         staff.setSpecialisation("doctor");
         System.out.println(staff.getSpecialisation());
-        
+
     }
 
 

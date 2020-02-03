@@ -182,13 +182,17 @@ public class LogicalOp {
     }
 
     //    Q9 Assignment
-    public void fibonacciTwenty(int number) {
+    public void fibonacciTwenty(int x, int y) {
+        x = 0;
+        y = 1;
         int sum = 0;
+        int counter = 0;
         do {
             System.out.println(sum);
-            number++;
-            sum = sum + number;
-        } while (number <= 20);
+            x = y;
+            y = sum;
+            x++;
+        } while (counter <= 18);
     }
 
     //    Q10 Assignment                       ??????????????????????????
