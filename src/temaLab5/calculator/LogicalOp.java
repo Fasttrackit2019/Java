@@ -56,12 +56,48 @@ public class LogicalOp {
     }
 
     //    Q7 Assignment
-    public void printPattern(String [] array) {
-        for (int i = 1; i <= array.length; i++) {
-                System.out.print("-");
-            }
-            System.out.println("\n");
+    public void printPattern(String[] anyArray) {
+        for (int i = 1; i <= anyArray.length; i++) {
+            System.out.print("-");
         }
+        System.out.println("\n");
+    }
+
+    //        Q8 Assignment
+    public int[] displayArray(int[] xArray, int number) {
+        int arrLen = xArray.length;
+        for (int i = 0; i < arrLen; i++) {
+            if (xArray[i] == number) {
+                for (int j = i; j < arrLen - 1; j++) {
+                    xArray[j] = xArray[j + 1];
+                }
+                break;
+            }
+        }
+        return xArray;
+    }
+
+    //    Q9 Assignment
+    public int findSecondSmallestNumber(int[] randomArray) {
+        int smallest = Integer.MAX_VALUE;
+        int smaller = Integer.MAX_VALUE;
+        int i = 0;
+        for (i = 0; i < randomArray.length; i++) {
+            if (randomArray[i] < smallest) {
+                smaller = smallest;
+                smallest = randomArray[i];
+            } else if (randomArray[i] < smaller && randomArray[i] > smallest) {
+                smaller =randomArray[i];
+            }
+        }
+        return smaller;
+    }
+
+    //    Q10 Assignment
+    public void copyArray(int[] firstArray, int[] secondArray) {
+        for (int i = 0; i < firstArray.length; i++)
+            firstArray[i] = secondArray[i];
+    }
 }
 
 
