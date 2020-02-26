@@ -82,58 +82,58 @@ public class AppMain {
 //        staff.setSpecialisation("doctor");
 //        System.out.println(staff.getSpecialisation());
 //
-        Animal myAnimal = new Animal();
-        Animal myCat = new Cat();
-        Animal myDog = new Dog();
-
-        System.out.println("Animal class: ");
-        myAnimal.play();
-
-        System.out.println("Cat class: ");
-        myCat.play();
-
-        System.out.println("Dog class: ");
-        myDog.play();
-
-
-        System.out.println("Animal class: ");
-        myAnimal.eat();
-
-        System.out.println("Cat class: ");
-        myCat.eat();
-
-        System.out.println("Dog class: ");
-        myDog.eat();
-
-        System.out.println("Animal Class: ");
-        myAnimal.furColor();
-
-        System.out.println("Cat class: ");
-        myCat.furColor();
-
-        System.out.println("Dog class: ");
-        myDog.furColor();
-
-        Human myHuman = new Human();
-        Veterinarian myVeterinarian = new Veterinarian();
-        Adopter myAdopter = new Adopter();
-
-        System.out.println("Human class: ");
-        myHuman.activity();
-
-        System.out.println("Veterinarian class: ");
-        myVeterinarian.activity();
-
-        System.out.println("Adopter class: ");
-        myAdopter.activity();
-
-        System.out.println("Human Class: ");
-        myHuman.hobby();
-
-        System.out.println("Veterinarian class: ");
-        myVeterinarian.hobby();
-
-        System.out.println("Adopter class: ");
-        myAdopter.hobby();
+//        Animal myAnimal = new Animal();
+//        Animal myCat = new Cat();
+//        Animal myDog = new Dog();
+//
+//        System.out.println("Animal class: ");
+//        myAnimal.play();
+//
+//        System.out.println("Cat class: ");
+//        myCat.play();
+//
+//        System.out.println("Dog class: ");
+//        myDog.play();
+//
+//
+//        System.out.println("Animal class: ");
+//        myAnimal.eat();
+//
+//        System.out.println("Cat class: ");
+//        myCat.eat();
+//
+//        System.out.println("Dog class: ");
+//        myDog.eat();
+//
+//        System.out.println("Animal Class: ");
+//        myAnimal.furColor();
+//
+//        System.out.println("Cat class: ");
+//        myCat.furColor();
+//
+//        System.out.println("Dog class: ");
+//        myDog.furColor();
+//
+//        Human myHuman = new Human();
+//        Veterinarian myVeterinarian = new Veterinarian();
+//        Adopter myAdopter = new Adopter();
+//
+//        System.out.println("Human class: ");
+//        myHuman.activity();
+//
+//        System.out.println("Veterinarian class: ");
+//        myVeterinarian.activity();
+//
+//        System.out.println("Adopter class: ");
+//        myAdopter.activity();
+//
+//        System.out.println("Human Class: ");
+//        myHuman.hobby();
+//
+//        System.out.println("Veterinarian class: ");
+//        myVeterinarian.hobby();
+//
+//        System.out.println("Adopter class: ");
+//        myAdopter.hobby();
     }
 }
